@@ -5,6 +5,18 @@
     <title>Test case result</title>
   </head>
   <body>
+    <a href="javascript:history.back()" class="button">Back</a>
+
+<style>
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+</style>
     <% if (testcase===3) { %>
         <h1><%= testcase %> test case passed ,Logic is correct ! </h1>
      <% } else { %>

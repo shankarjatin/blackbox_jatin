@@ -56,7 +56,10 @@ if(testcase===3){console.log("logic coreect");
 res.render("pages/index2",{testcase:testcase})}
 
 else {
-    alert("test cases failed");
+    testcaseStatusfail=true;
+    res.render("pages/final",{testcase:testcase})
+  
+      
 }
 
      }
